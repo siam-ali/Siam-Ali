@@ -491,7 +491,7 @@ body {
 
 .btn-wrapper .chip {
   padding: 1.2rem;
-  margin-top: 1rem;
+  margin-top: 1.2rem;
 }
 
 .chip .material-symbols-outlined {
@@ -704,9 +704,9 @@ input:hover {
   margin-block-end: 3rem;
 }
 
-/* .resume-card {
-  /* display: grid;
-  gap: 4px; */ 
+.padding {
+  margin: 1rem 0;
+}
 
 .resume-card .card-subtitle {
   color: var(--highlight);
@@ -724,12 +724,15 @@ input:hover {
 
 .resume-bottom-items {
   background-color: var(--third-background);
+  border-radius: var(--radius-small);
+
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   gap: 1rem;
+  
   padding: 1.2rem;
-  border-radius: var(--radius-small);
+  align-items: center;
+  justify-content: center;
 }
 
 .resume-bottom-items .icon {
