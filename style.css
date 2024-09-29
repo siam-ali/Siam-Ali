@@ -405,6 +405,7 @@ body {
 }
 
 .material-symbols-outlined {
+  cursor: pointer;
   width: 1em;
   height: 1em;
   display: block;
@@ -845,6 +846,11 @@ input:hover {
 
 .social-items path, .social-items rect {
   fill: hsl(280, 17%, 90%);
+  transition: fill 0.2s ease; 
+}
+
+.social-items:hover path, .social-items:hover rect {
+  fill: var(--highlight); 
 }
 
 /*--
